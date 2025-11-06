@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sihan Yu Project"
+  navbar:
+    left:
+      - text: Home
+        href: index.ipynb
+      - text: Notebook
+        href: Sihan_Yu.ipynb
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
