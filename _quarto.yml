@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sihan Yu Final Project"
+  navbar:
+    left:
+      - text: Home
+        href: index.ipynb
+      - text: Report
+        href: Sihan_Yu.ipynb
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+
