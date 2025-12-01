@@ -8,7 +8,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "3. Vulnerability Analysis"
+      "Data Analysis",
+      "Vulnerability Analysis"
     ]
   },
   {
@@ -20,7 +21,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "3. Vulnerability Analysis"
+      "Data Analysis",
+      "Vulnerability Analysis"
     ]
   },
   {
@@ -32,7 +34,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "3. Vulnerability Analysis"
+      "Data Analysis",
+      "Vulnerability Analysis"
     ]
   },
   {
@@ -44,7 +47,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "4. Conclusion & Outlook"
+      "Conclusion & Outlook"
     ]
   },
   {
@@ -56,7 +59,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "4. Conclusion & Outlook"
+      "Conclusion & Outlook"
     ]
   },
   {
@@ -68,7 +71,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "4. Conclusion & Outlook"
+      "Conclusion & Outlook"
     ]
   },
   {
@@ -80,7 +83,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "4. Conclusion & Outlook"
+      "Conclusion & Outlook"
     ]
   },
   {
@@ -92,7 +95,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "4. Conclusion & Outlook"
+      "Conclusion & Outlook"
     ]
   },
   {
@@ -118,7 +121,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "1. Context & Background"
+      "Context & Background"
     ]
   },
   {
@@ -130,7 +133,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "1. Context & Background"
+      "Context & Background"
     ]
   },
   {
@@ -142,7 +145,7 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "1. Context & Background"
+      "Context & Background"
     ]
   },
   {
@@ -150,7 +153,11 @@
     "href": "0_Me.html",
     "title": "About the Author",
     "section": "",
-    "text": "Sihan Yu Master of Urban Spatial Analytics (MUSA), University of Pennsylvania\nI am a geospatial data scientist interested in urban resilience and transportation planning.\nI specialize in applying Python and advanced spatial analysis to understand how environmental changes impact urban infrastructure and mobility systems. My work focuses on using data-driven approaches to visualize risks and develop strategies for more resilient cities.\n\nGitHub: Link\nEmail: [yusihan@upenn.edu]"
+    "text": "Sihan Yu Master of Urban Spatial Analytics (MUSA), University of Pennsylvania\nI am a geospatial data scientist interested in urban resilience and transportation planning.\nI specialize in applying Python and advanced spatial analysis to understand how environmental changes impact urban infrastructure and mobility systems. My work focuses on using data-driven approaches to visualize risks and develop strategies for more resilient cities.\n\nGitHub: Link\nEmail: [yusihan@upenn.edu]",
+    "crumbs": [
+      "Home",
+      "About Me"
+    ]
   },
   {
     "objectID": "2_exposure.html",
@@ -161,7 +168,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "2. Flood Exposure Analysis"
+      "Data Analysis",
+      "Flood Exposure Analysis"
     ]
   },
   {
@@ -173,7 +181,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "2. Flood Exposure Analysis"
+      "Data Analysis",
+      "Flood Exposure Analysis"
     ]
   },
   {
@@ -185,7 +194,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "2. Flood Exposure Analysis"
+      "Data Analysis",
+      "Flood Exposure Analysis"
     ]
   },
   {
@@ -197,7 +207,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "2. Flood Exposure Analysis"
+      "Data Analysis",
+      "Flood Exposure Analysis"
     ]
   },
   {
@@ -209,7 +220,8 @@
     "crumbs": [
       "Home",
       "Analysis Report",
-      "4. Scenario-Based Sensitivity Analysis"
+      "Data Analysis",
+      "Scenario-Based Sensitivity Analysis"
     ]
   },
   {
@@ -217,13 +229,19 @@
     "href": "index.html#project-overview",
     "title": "Assessing Urban Transportation Vulnerability: A Case Study of Hat Yai, Thailand",
     "section": "Project Overview",
-    "text": "Project Overview\nUrban flooding is a growing threat to Southeast Asian cities, risking lives and economic stability. Transportation resilience plays a crucial role in this context, as it refers to a city’s ability to keep its mobility systems functioning during uncertain times. When road networks fail to coordinate, disaster management becomes ineffective, amplifying socio-economic losses.\nThis project focuses on Hat Yai, one of Thailand’s key economic centers, to analyze a recent major flood. We evaluate how the flood affected transportation and the extent of human exposure. Based on these findings, we aim to build a framework to classify flood impacts and provide insights to improve future urban planning and emergency response."
+    "text": "Project Overview\nUrban flooding is a growing threat to Southeast Asian cities, risking lives and economic stability. Transportation resilience plays a crucial role in this context, as it refers to a city’s ability to keep its mobility systems functioning during uncertain times. When road networks fail to coordinate, disaster management becomes ineffective, amplifying socio-economic losses.\nThis project focuses on Hat Yai, one of Thailand’s key economic centers, to analyze a recent major flood. We evaluate how the flood affected transportation and the extent of human exposure. Based on these findings, we aim to build a framework to classify flood impacts and provide insights to improve future urban planning and emergency response.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#data-sources",
     "href": "index.html#data-sources",
     "title": "Assessing Urban Transportation Vulnerability: A Case Study of Hat Yai, Thailand",
     "section": "Data Sources",
-    "text": "Data Sources\nThis analysis relies on open-source data from:\n\nDigital Elevation Model (DEM): NASA Earthdata\n\nUsed for topographical analysis and “Bathtub Model” flood simulation.\n\nRoad Network: OpenStreetMap (OSM) via OSMnx\n\nUsed for graph network construction and connectivity analysis.\n\nFlood Extent: Sentinel Asia\n\nHistorical flood footprint data (Nov 23, 2025).\n\nPopulation: WorldPop\n\nHigh-resolution (100m) gridded population density data."
+    "text": "Data Sources\nThis analysis relies on open-source data from:\n\nDigital Elevation Model (DEM): NASA Earthdata\n\nUsed for topographical analysis and flood simulation.\n\nRoad Network: OpenStreetMap (OSM) via OSMnx\n\nUsed for graph network construction and connectivity analysis.\n\nFlood Extent: Sentinel Asia\n\nHistorical flood footprint data (Nov 23, 2025).\n\nPopulation: WorldPop\n\nHigh-resolution (100m) gridded population density data.",
+    "crumbs": [
+      "Home"
+    ]
   }
 ]

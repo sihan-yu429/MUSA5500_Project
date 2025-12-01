@@ -13,30 +13,39 @@ website:
     right:
       - icon: github
         href: https://github.com/sihan-yu429
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sihan-yu-95a19b268/
   
   sidebar:
     style: "docked"
     search: true
     collapse-level: 1
     contents:
+      - text: "Home"
+        file: index.ipynb
+      - text: "About Me"
+        file: 0_Me.ipynb
       - section: "Analysis Report"
         contents:
-          - text: "1. Context & Background"
+          - text: "Context & Background"
             file: 1_background.ipynb
-          - text: "2. Flood Exposure Analysis"
-            file: 2_exposure.ipynb
-          - text: "3. Vulnerability Analysis"
-            file: Vulnerability.ipynb
-          - text: "4. Scenario-Based Sensitivity Analysis"
-            file: 4_interactive.ipynb
-          - text: "4. Conclusion & Outlook"
+          - section: "Data Analysis"
+            contents:
+              - text: "Flood Exposure Analysis"
+                file: 2_exposure.ipynb
+              - text: "Vulnerability Analysis"
+                file: Vulnerability.ipynb
+              - text: "Scenario-Based Sensitivity Analysis"
+                file: 4_interactive.ipynb
+          - text: "Conclusion & Outlook"
             file: 5_Conclusion.ipynb
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, styles.scss] 
     toc: true
     toc-location: right
-    code-fold: true      
-    code-tools: true      
-    code-summary: "Show Code" 
+    code-fold: true
+    code-tools: true
+    code-summary: "Show Code"
