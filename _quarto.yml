@@ -3,16 +3,40 @@ project:
   output-dir: docs
 
 website:
-  title: "Sihan Yu Project"
+  title: "Hat Yai Flood Resilience"
   navbar:
     left:
-      - text: Home
-        href: index.ipynb
-      - text: Notebook
-        href: Sihan_Yu.ipynb
+      - href: index.ipynb
+        text: Home
+      - href: 0_Me.ipynb
+        text: About Me
+    right:
+      - icon: github
+        href: https://github.com/sihan-yu429
+  
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Analysis Report"
+        contents:
+          - text: "1. Context & Background"
+            file: 1_background.ipynb
+          - text: "2. Flood Exposure Analysis"
+            file: 2_exposure.ipynb
+          - text: "3. Vulnerability Analysis"
+            file: Vulnerability.ipynb
+          - text: "4. Scenario-Based Sensitivity Analysis"
+            file: 4_interactive.ipynb
+          - text: "4. Conclusion & Outlook"
+            file: 5_Conclusion.ipynb
 
 format:
   html:
     theme: cosmo
     toc: true
-    toc-location: left
+    toc-location: right
+    code-fold: true      
+    code-tools: true      
+    code-summary: "Show Code" 
