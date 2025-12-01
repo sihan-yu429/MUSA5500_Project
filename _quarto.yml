@@ -4,20 +4,17 @@ project:
 
 website:
   title: "Hat Yai Flood Resilience"
-  # Navbar section is intentionally removed
 
   sidebar:
+    logo: data/logo1.jpg
     style: "docked"
     search: true
     collapse-level: 1
-    # Tools)
     tools:
       - icon: github
         href: https://github.com/sihan-yu429
       - icon: linkedin
-        href: https://www.linkedin.com/in/sihan-yu-95a19b268/ 
-    
-    # Contents
+        href: https://www.linkedin.com/in/sihan-yu-95a19b268/
     contents:
       - text: "Home"
         file: index.ipynb
@@ -39,8 +36,8 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, styles.scss] 
-      dark: [darkly, styles.scss] 
+      - cosmo
+      - styles.scss
     toc: true
     toc-location: right
     code-fold: true

@@ -1,9 +1,38 @@
 /*-- scss:defaults --*/
-$primary: #6da9e5; 
-$body-bg: #f3f2e1; 
-$body-color: #33302b; 
+$primary: #65a5e5;
+$body-bg: #fcfcf5;
+$body-color: #33302b;
+
+$white: #fcfcf5;
 
 /*-- scss:rules --*/
 
+/* Sidebar background + text */
+.sidebar {
+  background-color: $white !important;
+  color: $body-color !important;
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: $body-color !important;
+}
+
+.sidebar a:hover {
+  color: darken($body-color, 10%) !important;
+}
+
+/* Center sidebar tools (GitHub + LinkedIn icons) */
+.sidebar-tools {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.sidebar-tools .sidebar-tool {
+  margin: 0;
+}
+
 /*-- scss:functions --*/
 /*-- scss:mixins --*/
+
