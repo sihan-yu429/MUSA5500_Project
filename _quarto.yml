@@ -4,46 +4,43 @@ project:
 
 website:
   title: "Hat Yai Flood Resilience"
-  navbar:
-    left:
-      - href: index.ipynb
-        text: Home
-      - href: 0_Me.ipynb
-        text: About Me
-    right:
-      - icon: github
-        href: https://github.com/sihan-yu429
-      - icon: linkedin
-        href: https://www.linkedin.com/in/sihan-yu-95a19b268/
-  
+  # Navbar section is intentionally removed
+
   sidebar:
     style: "docked"
     search: true
     collapse-level: 1
+    # Tools)
+    tools:
+      - icon: github
+        href: https://github.com/sihan-yu429
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sihan-yu-95a19b268/ 
+    
+    # Contents
     contents:
       - text: "Home"
         file: index.ipynb
       - text: "About Me"
         file: 0_Me.ipynb
-      - section: "Analysis Report"
+      - text: "Context & Background"
+        file: 1_background.ipynb
+      - section: "Data Analysis"
         contents:
-          - text: "Context & Background"
-            file: 1_background.ipynb
-          - section: "Data Analysis"
-            contents:
-              - text: "Flood Exposure Analysis"
-                file: 2_exposure.ipynb
-              - text: "Vulnerability Analysis"
-                file: Vulnerability.ipynb
-              - text: "Scenario-Based Sensitivity Analysis"
-                file: 4_interactive.ipynb
-          - text: "Conclusion & Outlook"
-            file: 5_Conclusion.ipynb
+          - text: "Flood Exposure Analysis"
+            file: 2_exposure.ipynb
+          - text: "Vulnerability Analysis"
+            file: Vulnerability.ipynb
+          - text: "Scenario-Based Sensitivity Analysis"
+            file: 4_interactive.ipynb
+      - text: "Conclusion & Outlook"
+        file: 5_Conclusion.ipynb
 
 format:
   html:
     theme:
       light: [cosmo, styles.scss] 
+      dark: [darkly, styles.scss] 
     toc: true
     toc-location: right
     code-fold: true
